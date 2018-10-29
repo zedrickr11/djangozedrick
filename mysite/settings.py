@@ -25,7 +25,7 @@ SECRET_KEY = '@q^8#@=lp6)13)7zle#qo0vfb_-r&d(xu=3h&3cw6a&9=@28o2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zedrickr.pythonanywhere.com']
 
 
 # Application definition
@@ -122,4 +122,8 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-ALLOWED_HOSTS = ['127.0.0.1', ' . pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'zedrickr.pythonanywhere.com']
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
